@@ -14,8 +14,8 @@ public class Array {
 		if (a.length % 2 != 0) {
 			mediana = a[(a.length/2)];
 		}else {
-			int n = a.length / 2;
-			int m = a.length / 2 +1;
+			int n = a[a.length / 2 - 1];
+			int m = a[a.length / 2];
 			mediana = (n+m) / 2;
 		}
 		return mediana;
