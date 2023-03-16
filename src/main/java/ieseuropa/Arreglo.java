@@ -2,7 +2,7 @@ package main.java.ieseuropa;
 
 import java.util.Arrays;
 
-public class Array {
+public class Arreglo {
 	
 	public static void ordenar(int [] a) {
 		Arrays.sort(a);
