@@ -20,6 +20,18 @@ public class Arreglo {
 		}
 		return mediana;
 	}
+	
+	public static int maximo(int [] a) {
+		int maximo=0;
+		
+		for(int i = 0; i < a.length ; i++) {
+			if(a[i] > maximo) {
+				maximo = a[i];
+			}
+		}
+		return maximo;
+		
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -27,6 +39,7 @@ public class Arreglo {
 		ordenar(a);
 		System.out.println(mediana(a));
 		System.out.println(Arrays.toString(a));
+		System.out.println(maximo(a));
 	}
 
 }
