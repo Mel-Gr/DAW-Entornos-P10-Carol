@@ -9,6 +9,15 @@ public class Numero {
 	    int segundosRestantes = segundos % 60;
 	    String resultado = segundos + "segundos son " + horas + " horas, " + minutos + " min, y " + segundosRestantes + " segundos" ;
 	    return resultado;
+  }
+
+	private static boolean esPrimo(int num) {
+		for(int i=2;i<num;i++) {
+			if(num%i==0) {
+				return false;
+			}
+		}
+	  return true;
 	}
 
 
