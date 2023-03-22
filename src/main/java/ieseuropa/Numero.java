@@ -20,7 +20,7 @@ public class Numero {
 	  return true;
 	}
 	private static String seriePell() {
-		return "0, 1, 2, 5, 12, 29, 70, 169, 408, 985, 2378, 5741, 13860, 33461, 80782";
+		return "0-1-2-5-12-29-70-169-408-985-2378-5741-13860-33461-80782";
 	}
 
 
