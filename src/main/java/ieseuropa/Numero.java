@@ -21,9 +21,9 @@ public class Numero {
 	}
 
 	private static int calcularFactorial(int num) {
-		int factorial = 0;
+		int factorial = 1;
 		for (int i = num - 1; i > 0; i--) {
-			factorial += num * i;
+			factorial *= i;
 		}
 		return factorial;
 	}
