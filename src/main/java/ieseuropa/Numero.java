@@ -17,7 +17,7 @@ public class Numero {
 	    } else {
 	    	return false;
 	    }
-
+	}
 
 	public static String convertirSegundosAHorasMinutosSegundos(int segundos) {
 		int horas = segundos / 3600;
@@ -36,6 +36,7 @@ public class Numero {
 		}
 		return true;
 	}
+	
 	private static String seriePell() {
 		return "0-1-2-5-12-29-70-169-408-985-2378-5741-13860-33461-80782";
 	}
@@ -47,7 +48,6 @@ public class Numero {
 		}
 		return factorial;
 	}
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
