@@ -20,17 +20,33 @@ public class Hilo {
 	private static int ocurrenciasLetra(char a, String string) {
 		int contador = 0;
 		for (int i = 0; i < string.length(); i++) {
-			if (string.toLowerCase.charAt(i) == Character.toLowerCase(a)) {
+			if (Character.toLowerCase(string.charAt(i)) == Character.toLowerCase(a)) {
 				contador++;
 			}
 		}
 		return contador;
 	}
 
+	public static String devolverXVeces(String uno, String dos, int veces) {
+
+		String resultado = "";
+
+		for (int i = 0; i < veces; i++) {
+			resultado += uno + " " + dos + " ";
+		}
+
+		return resultado;
+	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hola");
-		ocurrenciasLetra('a', "Me encanta entornos");
+	System.out.println(	ocurrenciasLetra('a', "Me encanta entornos"));
+		System.out.println(devolverXVeces("Hola","adios",3));
+		System.out.println(mayus("hola"));
+		System.out.println(minus("HOLA"));
+		System.out.println(longitud("HOLA hola"));
+		
 	}
 
 }
