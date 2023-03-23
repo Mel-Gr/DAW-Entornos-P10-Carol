@@ -26,6 +26,8 @@ public class Numero {
 		// TODO Auto-generated method stub
 		System.out.println("Hola");
 		
+		esNumeroArmstrong(23584);
+		
 		
 	}
 
