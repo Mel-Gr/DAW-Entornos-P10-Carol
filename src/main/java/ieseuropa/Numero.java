@@ -35,8 +35,8 @@ public class Numero {
 		// TODO Auto-generated method stub
 		System.out.println("Hola");
 		int numero = 5;
-		calcularFactorial(numero);
-		esPrimo(21);
+		System.out.println(calcularFactorial(numero));
+		System.out.println(esPrimo(21));
 		System.out.println(seriePell());
 		System.out.println(convertirSegundosAHorasMinutosSegundos(85475));
 
