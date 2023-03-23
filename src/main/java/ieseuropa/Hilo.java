@@ -31,6 +31,11 @@ public class Hilo {
 		// TODO Auto-generated method stub
 		System.out.println("Hola");
 		ocurrenciasLetra('a', "Me encanta entornos");
+		
+		System.out.println(mayus("hola"));
+		System.out.println(minus("hola"));
+		System.out.println(longitud("holahola"));
+		
 	}
 
 }

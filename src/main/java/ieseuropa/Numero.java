@@ -36,7 +36,9 @@ public class Numero {
 		System.out.println("Hola");
 		int numero = 5;
 		calcularFactorial(numero);
+		esPrimo(21);
 		System.out.println(seriePell());
+		System.out.println(convertirSegundosAHorasMinutosSegundos(85475));
 
 	}
 
