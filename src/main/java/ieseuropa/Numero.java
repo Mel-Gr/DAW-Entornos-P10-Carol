@@ -51,10 +51,12 @@ public class Numero {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int numero = 5;	
-		esNumeroArmstrong(23584);
+		int numero = 5;
+		System.out.println(calcularFactorial(numero));
+		System.out.println(esPrimo(21));
 		System.out.println(seriePell());
-		calcularFactorial(numero);
+		System.out.println(convertirSegundosAHorasMinutosSegundos(85475));
+		System.out.println(esNumeroArmstrong(23584));
 	}
 
 }

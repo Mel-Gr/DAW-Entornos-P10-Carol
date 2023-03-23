@@ -40,13 +40,11 @@ public class Hilo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hola");
-	System.out.println(	ocurrenciasLetra('a', "Me encanta entornos"));
+	  System.out.println(ocurrenciasLetra('a', "Me encanta entornos"));
 		System.out.println(devolverXVeces("Hola","adios",3));
 		System.out.println(mayus("hola"));
 		System.out.println(minus("HOLA"));
-		System.out.println(longitud("HOLA hola"));
-		
+		System.out.println(longitud("HOLA hola"));		
 	}
 
 }
