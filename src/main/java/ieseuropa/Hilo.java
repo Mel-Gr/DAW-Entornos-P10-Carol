@@ -37,6 +37,9 @@ public class Hilo {
 
 		return resultado;
 	}
+	public static String borrarOcurrencias(String uno, String dos) {
+		return uno.replace(dos, "");
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -44,7 +47,8 @@ public class Hilo {
 		System.out.println(devolverXVeces("Hola","adios",3));
 		System.out.println(mayus("hola"));
 		System.out.println(minus("HOLA"));
-		System.out.println(longitud("HOLA hola"));		
+		System.out.println(longitud("HOLA hola"));	
+		System.out.println(borrarOcurrencias("Real Zaragoza es de la real", "Real "));
 	}
 
 }
