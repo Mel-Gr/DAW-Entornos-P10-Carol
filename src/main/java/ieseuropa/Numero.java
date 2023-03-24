@@ -54,6 +54,7 @@ public class Numero {
 			return numeros.contains(num);
 		} else {
 			return false;
+		}
 	}
 	
 	private static String seriePell() {
