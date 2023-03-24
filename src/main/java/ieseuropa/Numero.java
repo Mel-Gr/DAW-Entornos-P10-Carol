@@ -2,7 +2,6 @@ package main.java.ieseuropa;
 
 public class Numero {
 	
-	
 	public static boolean esNumeroArmstrong(int numero) {
 	    int suma = 0;
 	    int numeroOriginal = numero;
@@ -36,6 +35,26 @@ public class Numero {
 		}
 		return true;
 	}
+
+	private static boolean numSuerte(int num) {
+		if (num > 0) {
+			ArrayList<Integer> numeros = new ArrayList<>();
+			for (int i = 1; i <= num; i++) {
+				numeros.add(i);
+			}
+			for (int i = 1; i < numeros.size(); i += 2) {
+				numeros.remove(i);
+			}
+			for (int i = 2; i < numeros.size(); i += 3) {
+				numeros.remove(i);
+			}
+			for (int i = 6; i < numeros.size(); i += 7) {
+				numeros.remove(i);
+			}
+			return numeros.contains(num);
+		} else {
+			return false;
+	}
 	
 	private static String seriePell() {
 		return "0-1-2-5-12-29-70-169-408-985-2378-5741-13860-33461-80782";
@@ -52,6 +71,7 @@ public class Numero {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int numero = 5;
+		System.out.println(numSuerte(87));
 		System.out.println(calcularFactorial(numero));
 		System.out.println(esPrimo(21));
 		System.out.println(seriePell());
